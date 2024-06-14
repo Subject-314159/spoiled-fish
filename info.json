@@ -1,0 +1,11 @@
+{
+  "name": "spoiled-fish",
+  "version": "0.1.2",
+  "title": "Spoiled fish",
+  "author": "Subjectd_31415",
+  "factorio_version": "1.1",
+  "dependencies": [
+    "base >= 1.1"
+  ],
+  "description": "Adds a (for now) craftable spoiled fish which is not quite entirely edible. Don't make me say 'I told you so'!"
+}
