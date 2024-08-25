@@ -19,7 +19,7 @@ script.on_event(defines.events.on_player_used_capsule, function(e)
     if e.item.name == "spoiled-fish" then
         local p = global.players[e.player_index]
         p.diarrhea_expire = game.ticks_played + DIARRHEA_DURATION
-        game.print("Ewww... " .. game.players[e.player_index].name .. " ate a spoiled fish!")
+        game.print("Ewww... " .. game.get_player(e.player_index).name .. " ate a spoiled fish!")
     end
 end)
 
